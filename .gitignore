@@ -14,12 +14,6 @@ ENV/
 # Environment variables
 .env
 
-# Results
-data/results/*.json
-data/results/*.csv
-*.png
-*.jpg
-
 # IDE
 .vscode/
 .idea/
