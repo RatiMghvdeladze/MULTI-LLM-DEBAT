@@ -1,0 +1,202 @@
+[
+  {
+    "id": 0,
+    "category": "Mathematical/Logical Reasoning",
+    "difficulty": "hard",
+    "question": "In how many ways can you tile a 3x8 rectangle with 2x1 dominoes?",
+    "correct_answer": "153",
+    "explanation": "Use dynamic programming with state representation"
+  },
+  {
+    "id": 1,
+    "category": "Physics & Scientific Reasoning",
+    "difficulty": "hard",
+    "question": "A uniform ladder of length L and mass m leans against a frictionless vertical wall at an angle theta from the horizontal. What is the minimum coefficient of static friction mu between the ladder and the ground needed to prevent the ladder from slipping?",
+    "correct_answer": "mu = 1/(2*tan(theta))",
+    "explanation": "Balance forces and torques at equilibrium"
+  },
+  {
+    "id": 2,
+    "category": "Logic Puzzles",
+    "difficulty": "medium",
+    "question": "You have 12 identical-looking coins, one of which is counterfeit and weighs differently (either heavier or lighter) than the others. Using a balance scale exactly 3 times, how can you identify the counterfeit coin AND determine whether it's heavier or lighter?",
+    "correct_answer": "Divide into groups of 4-4-4, use information theory approach",
+    "explanation": "Each weighing gives 3 outcomes, 3^3=27 possibilities"
+  },
+  {
+    "id": 3,
+    "category": "Strategic Game Theory",
+    "difficulty": "hard",
+    "question": "In a second-price sealed-bid auction (Vickrey auction), prove that bidding your true valuation is a dominant strategy.",
+    "correct_answer": "Bidding true valuation dominates all other strategies",
+    "explanation": "Show that overbidding or underbidding never improves payoff"
+  },
+  {
+    "id": 4,
+    "category": "Mathematical/Logical Reasoning",
+    "difficulty": "medium",
+    "question": "A bag contains 5 red balls and 3 blue balls. You draw balls one at a time without replacement until you get a blue ball. What is the expected number of draws?",
+    "correct_answer": "3",
+    "explanation": "Use linearity of expectation or probability distribution"
+  },
+  {
+    "id": 5,
+    "category": "Logic Puzzles",
+    "difficulty": "hard",
+    "question": "Three logicians walk into a bar. The bartender asks 'Does everyone want a beer?' The first logician says 'I don't know.' The second logician says 'I don't know.' The third logician says 'Yes.' Explain the logical reasoning behind each answer.",
+    "correct_answer": "Each person reasons based on perfect knowledge and previous responses",
+    "explanation": "If first didn't want beer, would say No. Their uncertainty reveals they want beer but don't know about others"
+  },
+  {
+    "id": 6,
+    "category": "Mathematical/Logical Reasoning",
+    "difficulty": "hard",
+    "question": "A frog is at the bottom of a 30-meter well. Each day it climbs up 3 meters, but each night it slides down 2 meters. On which day will the frog reach the top of the well?",
+    "correct_answer": "Day 28",
+    "explanation": "On day 28, the frog climbs from 27m to 30m and escapes before sliding back"
+  },
+  {
+    "id": 7,
+    "category": "Physics & Scientific Reasoning",
+    "difficulty": "hard",
+    "question": "A block of ice with a metal coin embedded in it floats in a glass of water. When the ice melts completely, does the water level rise, fall, or stay the same?",
+    "correct_answer": "The water level falls",
+    "explanation": "The coin is denser than water. While frozen, it displaces its weight in water. When melted, it only displaces its volume."
+  },
+  {
+    "id": 8,
+    "category": "Mathematical/Logical Reasoning",
+    "difficulty": "medium",
+    "question": "What is the sum of all integers from 1 to 100 that are not divisible by 3?",
+    "correct_answer": "3367",
+    "explanation": "Sum(1 to 100) - Sum(multiples of 3) = 5050 - 1683 = 3367"
+  },
+  {
+    "id": 9,
+    "category": "Logic Puzzles",
+    "difficulty": "hard",
+    "question": "You have 100 doors in a row that are all initially closed. You make 100 passes by the doors. On the first pass, you visit every door and toggle it. On the second pass, you visit every 2nd door. On the third pass, every 3rd door, etc. After 100 passes, which doors are open?",
+    "correct_answer": "Doors 1, 4, 9, 16, 25, 36, 49, 64, 81, 100 (perfect squares)",
+    "explanation": "A door is toggled once for each divisor. Only perfect squares have odd number of divisors."
+  },
+  {
+    "id": 10,
+    "category": "Strategic Game Theory",
+    "difficulty": "medium",
+    "question": "In the Prisoner's Dilemma with payoffs: Both Cooperate (3,3), Cooperate/Defect (0,5), Defect/Cooperate (5,0), Both Defect (1,1), what is the Nash equilibrium and is it Pareto optimal?",
+    "correct_answer": "Nash equilibrium is (Defect, Defect), which is NOT Pareto optimal",
+    "explanation": "(Cooperate, Cooperate) yields higher payoff for both but isn't stable"
+  },
+  {
+    "id": 11,
+    "category": "Physics & Scientific Reasoning",
+    "difficulty": "hard",
+    "question": "Two identical trains, each traveling at 60 km/h, start from opposite ends of a 120 km track and head toward each other. A fly starts at the front of one train and flies back and forth between the trains at 90 km/h until the trains collide. What total distance does the fly travel?",
+    "correct_answer": "90 km",
+    "explanation": "Trains meet in 1 hour. Fly travels at 90 km/h for 1 hour = 90 km."
+  },
+  {
+    "id": 12,
+    "category": "Mathematical/Logical Reasoning",
+    "difficulty": "hard",
+    "question": "Prove that the square root of 2 is irrational using proof by contradiction.",
+    "correct_answer": "Assume sqrt(2) = p/q in lowest terms. Then p^2 = 2q^2, so p is even. Let p=2k. Then 4k^2=2q^2, so q^2=2k^2, meaning q is even. Contradiction with lowest terms.",
+    "explanation": "Classic proof showing both numerator and denominator must be even"
+  },
+  {
+    "id": 13,
+    "category": "Logic Puzzles",
+    "difficulty": "medium",
+    "question": "A man pushes his car to a hotel and immediately knows he's bankrupt. Explain this scenario.",
+    "correct_answer": "He's playing Monopoly",
+    "explanation": "Lateral thinking puzzle - the scenario makes sense in the context of the board game"
+  },
+  {
+    "id": 14,
+    "category": "Mathematical/Logical Reasoning",
+    "difficulty": "hard",
+    "question": "In how many ways can you make change for a dollar using pennies, nickels, dimes, and quarters?",
+    "correct_answer": "242",
+    "explanation": "Dynamic programming or systematic enumeration of all combinations"
+  },
+  {
+    "id": 15,
+    "category": "Physics & Scientific Reasoning",
+    "difficulty": "medium",
+    "question": "If you're traveling at the speed of light and turn on your headlights, what happens?",
+    "correct_answer": "The question is physically impossible - massive objects cannot reach the speed of light",
+    "explanation": "This violates special relativity; speed of light is an asymptotic limit for massive objects"
+  },
+  {
+    "id": 16,
+    "category": "Strategic Game Theory",
+    "difficulty": "hard",
+    "question": "In a silent auction where the highest bidder pays their bid, what is the expected profit for a bidder whose valuation is V if they bid B < V, assuming all other bidders bid uniformly between 0 and M where M > V?",
+    "correct_answer": "Expected profit = (V-B) * (B/M)",
+    "explanation": "Probability of winning is B/M, profit when winning is V-B"
+  },
+  {
+    "id": 17,
+    "category": "Mathematical/Logical Reasoning",
+    "difficulty": "medium",
+    "question": "What is the probability of getting at least one 6 when rolling a fair die 4 times?",
+    "correct_answer": "671/1296 or approximately 0.5177 or about 51.77%",
+    "explanation": "1 - P(no sixes) = 1 - (5/6)^4 = 1 - 625/1296"
+  },
+  {
+    "id": 18,
+    "category": "Logic Puzzles",
+    "difficulty": "hard",
+    "question": "You have 9 coins that look identical. 8 are genuine and weigh the same; 1 is counterfeit and weighs less. Using a balance scale only twice, how can you identify the counterfeit coin?",
+    "correct_answer": "Divide into groups of 3-3-3. First weighing identifies the light group. Second weighing between two coins from light group identifies the counterfeit.",
+    "explanation": "Information-theoretic approach: 2 weighings give 3^2 = 9 possible outcomes"
+  },
+  {
+    "id": 19,
+    "category": "Physics & Scientific Reasoning",
+    "difficulty": "hard",
+    "question": "A boat carrying a large rock is floating in a swimming pool. The rock is thrown overboard and sinks to the bottom. Does the water level in the pool rise, fall, or stay the same?",
+    "correct_answer": "The water level falls",
+    "explanation": "When in boat, rock displaces its weight in water. When sinking, it displaces only its volume (less than its weight equivalent)."
+  },
+  {
+    "id": 20,
+    "category": "Mathematical/Logical Reasoning",
+    "difficulty": "hard",
+    "question": "Find all positive integer solutions to x^2 + y^2 = z^2 where x, y, z are less than 20 (Pythagorean triples).",
+    "correct_answer": "(3,4,5), (5,12,13), (8,15,17), (6,8,10), (9,12,15), (12,16,20) and permutations",
+    "explanation": "Systematically check or use parameterization: x=m^2-n^2, y=2mn, z=m^2+n^2"
+  },
+  {
+    "id": 21,
+    "category": "Strategic Game Theory",
+    "difficulty": "medium",
+    "question": "In rock-paper-scissors, if your opponent plays rock 50% of the time, paper 30%, and scissors 20%, what is your optimal strategy and expected payoff?",
+    "correct_answer": "Play paper 100% of the time for expected payoff of +0.2 per game",
+    "explanation": "Against 50% rock: win (+1*0.5), against 30% paper: lose (-1*0.3), against 20% scissors: tie (0*0.2)"
+  },
+  {
+    "id": 22,
+    "category": "Logic Puzzles",
+    "difficulty": "hard",
+    "question": "Five pirates must divide 100 gold coins. They vote in order (most senior to least) on each proposal. If 50%+ approve, the proposal passes; otherwise, the proposer walks the plank and the next pirate proposes. Pirates are perfectly rational and greedy but prefer living. How should the most senior pirate divide the coins?",
+    "correct_answer": "Senior pirate keeps 98 coins, gives 1 to the third pirate and 1 to the fifth pirate",
+    "explanation": "Work backwards: use game theory and backward induction to find subgame perfect equilibrium"
+  },
+  {
+    "id": 23,
+    "category": "Mathematical/Logical Reasoning",
+    "difficulty": "hard",
+    "question": "Evaluate: lim(x->0) [sin(x)/x]",
+    "correct_answer": "1",
+    "explanation": "Famous limit, proven using L'Hopital's rule or squeeze theorem"
+  },
+  {
+    "id": 24,
+    "category": "Physics & Scientific Reasoning",
+    "difficulty": "medium",
+    "question": "Two identical light bulbs are connected in series to a battery. One bulb burns out (open circuit). What happens to the brightness of the other bulb?",
+    "correct_answer": "The other bulb goes out completely (no current flows)",
+    "explanation": "In series, same current flows through both. Open circuit = zero current."
+  }
+]
