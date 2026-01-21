@@ -205,10 +205,25 @@ The system uses a single model (Gemini 2.0 Flash) with different configurations 
 
 The evaluation process generates four key visualizations as required:
 
-1. **overall_performance.png** - Overall system accuracy compared to baseline
-2. **category_performance.png** - Accuracy breakdown by problem category
-3. **judge_decisions.png** - Distribution of judge selections across solvers
-4. **problem_results.png** - Success and failure visualization by problem ID
+#### 1. Overall Performance
+![Overall Performance](data/results/overall_performance.png)
+
+*System accuracy (53.8%) demonstrating above-baseline performance on challenging problems*
+
+#### 2. Category Performance Breakdown
+![Category Performance](data/results/category_performance.png)
+
+*Accuracy across problem categories: Mathematical Reasoning (90%), Physics (50%), Game Theory (25%), Logic Puzzles (16.7%)*
+
+#### 3. Judge Decision Distribution
+![Judge Decisions](data/results/judge_decisions.png)
+
+*Distribution of judge selections across the three solvers, showing balanced decision-making*
+
+#### 4. Individual Problem Results
+![Problem Results](data/results/problem_results.png)
+
+*Success and failure visualization for all 25 problems, color-coded by category*
 
 All visualizations are automatically generated and saved to the `data/results/` directory.
 
